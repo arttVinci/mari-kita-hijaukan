@@ -6,11 +6,11 @@ on:
       email:
         description: 'EMail'
         required: true
-        default: 'coderzakir44@gmail.com'
+        default: 'otong123321@gmail.com'
       username:
         description: 'Username'
         required: true
-        default: 'Coder Zakir'
+        default: 'arttVinci'
       commit:
         description: 'Commit'
         required: true
@@ -21,7 +21,7 @@ on:
         default: 20
   push:
     branches:
-      - master
+      - main
 
 jobs:
   auto_commit:

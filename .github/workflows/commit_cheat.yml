@@ -4,7 +4,7 @@ on:
 
   push:
     branches:
-      - master
+      - main
       
   schedule:
   - cron: "0 1,2,3,4,5,6,7,8,9,10,11,12,13,14,15,16,17,18,19,20 * * *" # See https://crontab.guru/#0_7,9,11,17,20_*_*_*
@@ -27,8 +27,8 @@ jobs:
         run: |
           set -o pipefail
           git config --global --add safe.directory /github/workspace
-          git config --local user.email "coderzakir44@gmail.com"
-          git config --local user.name "Coder Zakir"
+          git config --local user.email "otong123321@gmail.com"
+          git config --local user.name "arttVinci"
           git config --global --add safe.directory /github/workspace
           git add -A
           
